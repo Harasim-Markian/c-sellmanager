@@ -4,7 +4,7 @@ using namespace std;
  
 int main() {
     string typeOfPhone, typePhone, gamingOrNot, price, gb, phoneName, result;
-    cout << " idi nah\n";
+    cout << " Hello \n";
     cout << "For start I want know what you want to buy 'Landline phone' or 'Phone':";
     cin >> typeOfPhone;
     if (typeOfPhone == "Phone") {
@@ -102,6 +102,6 @@ int main() {
         }
     }
     cout << "Good job!\n" << phoneName << " will be the best phone for you!";
-    cout << "Good job!\n" << phoneName << " will be the best phone for you!";
+    
 
 }
