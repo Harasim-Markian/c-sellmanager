@@ -4,7 +4,7 @@ using namespace std;
  
 int main() {
     string typeOfPhone, typePhone, gamingOrNot, price, gb, phoneName, result;
-    cout << " Ð”Ð¾Ð±Ñ€Ð¸Ð¹ Ð´ÐµÐ½ÑŒ, Ð¼ÐµÐ½Ðµ Ð·Ð²Ð°Ñ‚Ð¸ ÐœÐ¸Ñ€Ð¾ÑÐ»Ð°Ð²Ð°, Ñ– Ñ Ð´Ð¾Ð¿Ð¾Ð¼Ð¾Ð¶Ñƒ Ð²Ð°Ð¼ Ð· Ð²Ð¸Ð±Ð¾Ñ€Ð¾Ð¼ Ñ‚ÐµÐ»ÐµÑ„Ð¾Ð½Ñƒ.\n";
+    cout << " idi nah\n";
     cout << "For start I want know what you want to buy 'Landline phone' or 'Phone':";
     cin >> typeOfPhone;
     if (typeOfPhone == "Phone") {
@@ -55,7 +55,7 @@ int main() {
  
                 }
                 else if (price == "Yes" && gb == "64") {
-                    cout << "Cool! For you we have a several options:\Xiaomi Redmi Note 10S 64gb- 18000UAN\nApple iPhone X 64gb - 15000UAN\nMake choice :";
+                    cout << "Cool! For you we have a several options:\nXiaomi Redmi Note 10S 64gb- 18000UAN\nApple iPhone X 64gb - 15000UAN\nMake choice :";
                     cin >> phoneName;
                 }
                 else if (price == "Yes" && gb == "128") {
@@ -102,3 +102,6 @@ int main() {
         }
     }
     cout << "Good job!\n" << phoneName << " will be the best phone for you!";
+    cout << "Good job!\n" << phoneName << " will be the best phone for you!";
+
+}
